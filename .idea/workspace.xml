@@ -1,10 +1,151 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cfee895d-6a40-43c1-b17b-f3b1bdb2796f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap/0bsmenu.html" afterPath="$PROJECT_DIR$/bootstrap/0bsmenu.html" />
+    <list default="true" id="9d3d750c-a142-45a7-8f82-bac70902234e" name="Default" comment="">
+      <change type="DELETED" beforePath="H:\30days_share_blog\.idea\staticDemo.iml" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\booklist.html" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\bootstrap\.idea\.name" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\bootstrap\.idea\misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\bootstrap\.idea\modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\bootstrap\.idea\presentDemo.iml" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\bootstrap\.idea\vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\bootstrap\.idea\workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\bootstrap\0bsmenu.html" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\bootstrap\1grid.html" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\bootstrap\2h1_h6.html" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\bootstrap\3table.html" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\bootstrap\4form.html" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\bootstrap\5component.html" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\bootstrap\6modal.html" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\bootstrap\7scrollspy.html" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\bootstrap\8navbar.html" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\bootstrap\css\bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\bootstrap\css\style.css" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\bootstrap\fonts\glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\bootstrap\fonts\glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\bootstrap\fonts\glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\bootstrap\fonts\glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\bootstrap\fonts\glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\bootstrap\js\bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\bootstrap\js\jquery-1.11.3.min.js" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\bootstrap\response.html" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\coding.html" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\css\bootstrap-theme.css.map" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\css\bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\css\bootstrap-theme.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\css\bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\css\bootstrap.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\fonts\glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\fonts\glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\fonts\glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\fonts\glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\fonts\glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\imgs\1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\imgs\2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\imgs\3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\imgs\4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\imgs\book.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\imgs\book1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\imgs\book2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\imgs\book3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\imgs\book4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\imgs\book5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\imgs\book6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\imgs\book7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\imgs\book8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\imgs\wechat.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\js\JSrunning\JSrunning.html" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\js\JSrunning\JSrunningstyle.css" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\js\JSrunning\audio.mp3" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\js\JSrunning\jsrunningbg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\js\PM\PM.html" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\js\PM\PM.js" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\js\PM\PMstyle.css" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\js\bagua\bagua.html" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\js\bagua\style.css" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\js\bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\js\calendar\calendar.html" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\js\calendar\calendar.js" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\js\calendar\style.css" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\js\carousel\carousel.css" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\js\carousel\carousel.html" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\js\carousel\carousel.js" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\js\carousel\carouselimgs\1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\js\carousel\carouselimgs\10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\js\carousel\carouselimgs\11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\js\carousel\carouselimgs\12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\js\carousel\carouselimgs\2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\js\carousel\carouselimgs\3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\js\carousel\carouselimgs\4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\js\carousel\carouselimgs\5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\js\carousel\carouselimgs\6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\js\carousel\carouselimgs\7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\js\carousel\carouselimgs\8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\js\carousel\carouselimgs\9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\js\carousel\carouselimgs\next.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\js\carousel\carouselimgs\pre.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\js\clock\clock.html" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\js\clock\clockstyle.css" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\js\css3running\1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\js\css3running\2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\js\css3running\3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\js\css3running\4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\js\css3running\5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\js\css3running\6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\js\css3running\bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\js\css3running\css3running.html" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\js\css3running\css3runningstyle.css" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\js\date\date.css" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\js\date\date.html" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\js\date\date.js" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\js\heart\heart.css" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\js\heart\heart.html" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\js\jquery-1.11.3.min.js" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\js\leida\leida.html" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\js\leida\leidastyle.css" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\js\navbar\bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\js\navbar\navbar.css" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\js\navbar\navbar.html" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\js\randomcolor\randomcolor.css" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\js\randomcolor\randomcolor.html" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\js\randomcolor\randomcolor.js" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\js\script.js" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\js\snake\snake.html" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\js\waterfall\images\0.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\js\waterfall\images\1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\js\waterfall\images\10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\js\waterfall\images\11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\js\waterfall\images\12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\js\waterfall\images\13.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\js\waterfall\images\14.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\js\waterfall\images\15.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\js\waterfall\images\16.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\js\waterfall\images\17.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\js\waterfall\images\18.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\js\waterfall\images\19.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\js\waterfall\images\2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\js\waterfall\images\20.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\js\waterfall\images\3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\js\waterfall\images\4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\js\waterfall\images\5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\js\waterfall\images\6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\js\waterfall\images\7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\js\waterfall\images\8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\js\waterfall\images\9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\js\waterfall\javascript2.js" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\js\waterfall\style2.css" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\js\waterfall\waterfall.html" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\notes.html" afterPath="" />
+      <change type="DELETED" beforePath="H:\30days_share_blog\photography.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
-    <ignored path="staticDemo.iws" />
+    <ignored path="30days_share_blog.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,27 +160,16 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
-    <favorites_list name="staticDemo" />
+    <favorites_list name="30days_share_blog" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="0bsmenu.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bootstrap/0bsmenu.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3492433">
-              <caret line="34" column="64" selection-start-line="34" selection-start-column="64" selection-end-line="34" selection-end-column="64" />
-              <folding>
-                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#h6#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#3;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#4;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#5;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
+            <state vertical-scroll-proportion="0.40745053">
+              <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -48,27 +178,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/booklist.html" />
-        <option value="$PROJECT_DIR$/coding.html" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/notes.html" />
-        <option value="$PROJECT_DIR$/photography.html" />
-        <option value="$PROJECT_DIR$/bootstrap/1grid.html" />
-        <option value="$PROJECT_DIR$/bootstrap/2h1_h6.html" />
-        <option value="$PROJECT_DIR$/bootstrap/3.table.html" />
-        <option value="$PROJECT_DIR$/bootstrap/4form.html" />
-        <option value="$PROJECT_DIR$/bootstrap/6modal.html" />
-        <option value="$PROJECT_DIR$/bootstrap/7scrollspy.html" />
-        <option value="$PROJECT_DIR$/bootstrap/8navbar.html" />
-        <option value="$PROJECT_DIR$/bootstrap/5component.html" />
-        <option value="$PROJECT_DIR$/../response.html" />
-        <option value="$PROJECT_DIR$/bootstrap/0bsmenu.html" />
-      </list>
-    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" />
   <component name="JsGulpfileManager">
@@ -106,50 +215,40 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="staticDemo" />
+              <option name="myItemId" value="30days_share_blog" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="staticDemo" />
+              <option name="myItemId" value="30days_share_blog" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="staticDemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="staticDemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="staticDemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootstrap" />
+              <option name="myItemId" value="30days_share_blog" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="recentsLimit" value="5" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/30days_share_blog/index.html">
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
     </configuration>
@@ -182,14 +281,22 @@
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <method />
     </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="cfee895d-6a40-43c1-b17b-f3b1bdb2796f" name="Default" comment="" />
-      <created>1463907963022</created>
+      <changelist id="9d3d750c-a142-45a7-8f82-bac70902234e" name="Default" comment="" />
+      <created>1474442434517</created>
       <option name="number" value="Default" />
-      <updated>1463907963022</updated>
+      <updated>1474442434517</updated>
     </task>
     <servers />
   </component>
@@ -197,23 +304,23 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24815595" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329718" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24973656" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -224,135 +331,11 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/booklist.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.171875">
-          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.703125">
-          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.40745053">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/photography.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.029103609">
-          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/notes.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08731083">
-          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/coding.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.1932479">
-          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap/1grid.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.2941175">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="47" selection-end-column="6" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap/2h1_h6.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.647058">
-          <caret line="35" column="27" selection-start-line="22" selection-start-column="0" selection-end-line="35" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap/3table.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.441177">
-          <caret line="248" column="8" selection-start-line="248" selection-start-column="8" selection-end-line="248" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap/4form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6402794">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="306" selection-end-column="6" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap/8navbar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.50523865">
-          <caret line="37" column="73" selection-start-line="37" selection-start-column="67" selection-end-line="37" selection-end-column="73" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap/5component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.558824">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="114" selection-end-column="6" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap/6modal.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-22.058823">
-          <caret line="53" column="6" selection-start-line="22" selection-start-column="0" selection-end-line="53" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap/7scrollspy.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43655413">
-          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-          <folding>
-            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap/0bsmenu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3492433">
-          <caret line="34" column="64" selection-start-line="34" selection-start-column="64" selection-end-line="34" selection-end-column="64" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#h6#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#5;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>

@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>30days技术分享</title>
+
+    <!-- Bootstrap -->
+    <!-- 新 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-inverse navbar-static-top" role="navigation">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="index.html">目录</a></li>
+                <!--    <li><a href="ui.html">UI</a></li>
+                    <li><a href="ios.html">IOS</a></li>
+                    <li><a href="android.html">Android</a></li>
+                    <li><a href="server.html">Server</a></li>-->
+            </ul>
+            <!-- <form class="navbar-form navbar-left" role="search">
+                 <div class="form-group">
+                     <input type="text" class="form-control" placeholder="输入标题关键字">
+                 </div>
+                 <button type="submit" class="btn btn-default">搜索</button>
+             </form>-->
+
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
+
+
+<div class="col-md-12 text-center">
+    <div>
+        <button class="btn btn-default" id="prev">上一页</button>
+        <button class="btn btn-default" id="next">下一页</button>
+        &nbsp; &nbsp;
+        <span>页码: <span id="page_num"></span> / <span id="page_count"></span></span>
+    </div>
+
+    <div>
+        <canvas id="the-canvas" style="border:1px solid black;margin-top:5px;"></canvas>
+    </div>
+</div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+<script src="http://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+
+<script src="js/webArticle.js"></script>
+<script src="js/pdf.js"></script>
+<script id="script">
+    //
+    // If absolute URL from the remote server is provided, configure the CORS
+    // header on that server.
+    //
+    //字符分割法获取url参数
+    function GetRequest() {
+        var url = (location.href.split('#')[0]);
+        var strs = [];
+        var theRequest = [];
+        if (url.indexOf("?") != -1) {
+            var str = url.substr(url.indexOf("?") + 1);
+
+            strs = str.split("&");
+            for (var i = 0; i < strs.length; i++) {
+                theRequest[strs[i].split("=")[0]] = unescape(strs[i].split("=")[1]);
+            }
+        }
+        return theRequest;
+    }
+    if (GetRequest().id) {
+        var url = 'pdf/' + GetRequest().id + '.pdf';
+
+        //
+        // Disable workers to avoid yet another cross-origin issue (workers need
+        // the URL of the script to be loaded, and dynamically loading a cross-origin
+        // script does not work).
+        //
+        // PDFJS.disableWorker = true;
+
+        //
+        // In cases when the pdf.worker.js is located at the different folder than the
+        // pdf.js's one, or the pdf.js is executed via eval(), the workerSrc property
+        // shall be specified.
+        //
+        // PDFJS.workerSrc = '../../build/pdf.worker.js';
+
+        var pdfDoc = null,
+                pageNum = 1,
+                pageRendering = false,
+                pageNumPending = null,
+                scale = window.screen.width / 1000 <= 1 ? window.screen.width / 1000 : 1.2,
+                canvas = document.getElementById('the-canvas'),
+                ctx = canvas.getContext('2d');
+
+        /**
+         * Get page info from document, resize canvas accordingly, and render page.
+         * @param num Page number.
+         */
+        console.log("window", window.screen.width / 1000);
+
+        function renderPage(num) {
+            pageRendering = true;
+            // Using promise to fetch the page
+            pdfDoc.getPage(num).then(function (page) {
+                var viewport = page.getViewport(scale);
+                canvas.height = viewport.height;
+                canvas.width = viewport.width;
+                // Render PDF page into canvas context
+                var renderContext = {
+                    canvasContext: ctx,
+                    viewport: viewport
+                };
+                var renderTask = page.render(renderContext);
+
+                // Wait for rendering to finish
+                renderTask.promise.then(function () {
+                    pageRendering = false;
+                    if (pageNumPending !== null) {
+                        // New page rendering is pending
+                        renderPage(pageNumPending);
+                        pageNumPending = null;
+                    }
+                });
+            });
+
+            // Update page counters
+            document.getElementById('page_num').textContent = pageNum;
+        }
+
+        /**
+         * If another page rendering in progress, waits until the rendering is
+         * finised. Otherwise, executes rendering immediately.
+         */
+        function queueRenderPage(num) {
+            if (pageRendering) {
+                pageNumPending = num;
+            } else {
+                renderPage(num);
+            }
+        }
+
+        /**
+         * Displays previous page.
+         */
+        function onPrevPage() {
+            if (pageNum <= 1) {
+                return;
+            }
+            pageNum--;
+            queueRenderPage(pageNum);
+        }
+
+        document.getElementById('prev').addEventListener('click', onPrevPage);
+
+        /**
+         * Displays next page.
+         */
+        function onNextPage() {
+            if (pageNum >= pdfDoc.numPages) {
+                return;
+            }
+            pageNum++;
+            queueRenderPage(pageNum);
+        }
+
+        document.getElementById('next').addEventListener('click', onNextPage);
+
+        /**
+         * Asynchronously downloads PDF.
+         */
+        PDFJS.getDocument(url).then(function (pdfDoc_) {
+            pdfDoc = pdfDoc_;
+            document.getElementById('page_count').textContent = pdfDoc.numPages;
+
+            // Initial/first page rendering
+            renderPage(pageNum);
+        });
+    } else {
+        document.write("该文件已丢失");
+    }
+</script>
+</body>
+</html>
